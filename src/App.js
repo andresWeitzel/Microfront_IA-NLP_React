@@ -2,16 +2,18 @@
 import './App.css';
 
 //Rutas
-import { BrowserRouter as Router } from "react-router-dom";
-import { Routes, Route } from "react-router";
+// import { BrowserRouter as Router } from "react-router-dom";
+// import { Routes, Route } from "react-router";
 
 //Components
-import NavbarReact from './components/NavbarReact';
+import NavbarReact from './components/Navbar/NavbarReact';
 
 function App() {
   return (
     <div className="App">
        <NavbarReact />
+
+       
     </div>
   );
 }
