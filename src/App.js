@@ -1,5 +1,5 @@
 
-import './App.css';
+import './App.scss';
 
 //Rutas
 // import { BrowserRouter as Router } from "react-router-dom";
@@ -7,11 +7,14 @@ import './App.css';
 
 //Components
 import NavbarReact from './components/Navbar/NavbarReact';
+import FooterReact from './components/Footer/FooterReact';
 
 function App() {
   return (
     <div className="App">
        <NavbarReact />
+
+       <FooterReact />
 
        
     </div>
