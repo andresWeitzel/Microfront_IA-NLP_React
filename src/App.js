@@ -7,6 +7,7 @@ import './App.scss';
 
 //Components
 import NavbarReact from './components/Navbar/NavbarReact';
+import Card from './components/Card/Card';
 import FooterReact from './components/Footer/FooterReact';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <div className="App">
        <NavbarReact />
 
+       <Card/>
        <FooterReact />
 
        
