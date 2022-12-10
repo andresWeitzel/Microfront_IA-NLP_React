@@ -27,6 +27,8 @@
 | ------------- | ------------- | ------------- |
 | React | 18 | Librería JS Front |
 | Sass | 1.56  | Preprocesador CSS |
+| HTML | 5.0 | Lenguaje de Hipertexto |
+| CSS | 3.0 | Hojas de Estilos |
 | Bootstrap | 5.1.3 | Framework Front |
 | GPT-J | 6B | Procesamiento Lenguaje Natural |
 | VSC | 1.74 | IDE |
