@@ -27,6 +27,7 @@
 | ------------- | ------------- | ------------- |
 | React | 18 | Librería JS Front |
 | Sass | 1.56  | Preprocesador CSS |
+| Bootstrap | 5.1.3 | Framework Front |
 | GPT-J | 6B | Procesamiento Lenguaje Natural |
 | VSC | 1.74 | IDE |
 | GNU bash | 4.4.23  | Bash / Terminal para el manejo e implementación de Git integrado | 
