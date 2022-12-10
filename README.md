@@ -35,11 +35,19 @@
 | GNU bash | 4.4.23  | Bash / Terminal para el manejo e implementación de Git integrado | 
 | Git | 2.29.1  | Control de Versiones |
 
+</br>
 
+## Documentación Oficial 
+* [React](https://reactjs.org/docs/getting-started.html)
+* [Bootstrap v5.2](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+* [GPT-J-6B Oficial](https://www.eleuther.ai/)
 
+</br>
 
+## Documentación No Oficial 
+* [React 18](https://reactjs.org/blog/2022/03/29/react-v18.html)
+* [Inputs React](https://www.youtube.com/watch?v=oMB1ZTd7ZGo)
 
-
-
-* Obtener valor input react : https://www.youtube.com/watch?v=oMB1ZTd7ZGo
-* Using state : https://www.freecodecamp.org/news/what-is-state-in-react-explained-with-examples/
+</br>
+  
+## `DOCUMENTACIÓN EN PROCESO DE DESARROLLO`
