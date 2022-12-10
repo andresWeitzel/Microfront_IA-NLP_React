@@ -26,12 +26,13 @@
 | **Tecnologías** | **Versión** | **Finalidad** |               
 | ------------- | ------------- | ------------- |
 | React | 18 | Librería JS Front |
+| React-CLI | 0.3.1 | Herramienta de React para depurar, crear, publicar, etc Apps |
 | Sass | 1.56  | Preprocesador CSS |
 | HTML | 5.0 | Lenguaje de Hipertexto |
 | CSS | 3.0 | Hojas de Estilos |
 | Bootstrap | 5.1.3 | Framework Front |
 | GPT-J | 6B | Procesamiento Lenguaje Natural |
-| VSC | 1.74 | IDE |
+| Visual Studio Code | 1.74 | IDE |
 | GNU bash | 4.4.23  | Bash / Terminal para el manejo e implementación de Git integrado | 
 | Git | 2.29.1  | Control de Versiones |
 
@@ -39,7 +40,10 @@
 
 ## Documentación Oficial 
 * [React](https://reactjs.org/docs/getting-started.html)
+* [React-CLI](https://www.npmjs.com/package/react-cli)
 * [Bootstrap v5.2](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+* [Visual Studio Code](https://code.visualstudio.com/download)
+* [GIT](https://git-scm.com/docs)
 * [GPT-J-6B Oficial](https://www.eleuther.ai/)
 
 </br>
