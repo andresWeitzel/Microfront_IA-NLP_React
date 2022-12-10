@@ -1,6 +1,7 @@
 # Microfront IA-NLP React
 * App para la implementación y uso de diversos módulos npm desarrollados acerca de Procesamiento de Lenguaje Natural (NLP) implementando modelos de código abierto como GPT-J-6B / GPT-NEO / etc.
-* [Repositorio módulo npm GPT-J-6B](https://github.com/andresWeitzel/Modulo_GPT-J-6B_NLP_NodeJs)
+* [Repositorio Proyecto GPT-J-6B](https://github.com/andresWeitzel/Modulo_GPT-J-6B_NLP_NodeJs)
+* [Repositorio módulo npm GPT-J-6B](https://www.npmjs.com/package/gpt-j)
 
 </br>
 
@@ -13,7 +14,7 @@
   * npm i react-router
   * npm i react-bootstrap
   * npm install sass
-  * npm i gpt-j
+  * npm i gpt-j (Módulo npm desarrollado)
   
 
 * Obtener valor input react : https://www.youtube.com/watch?v=oMB1ZTd7ZGo
