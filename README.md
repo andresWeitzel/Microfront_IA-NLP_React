@@ -16,6 +16,27 @@
   * `npm install sass`
   * `npm i gpt-jv` (Módulo npm desarrollado)
   
+</hr>
+
+
+</br>
+
+### Tecnologías Implementadas
+
+| **Tecnologías** | **Versión** | **Finalidad** |               
+| ------------- | ------------- | ------------- |
+| React | 18 | Librería JS Front |
+| Sass | 1.56  | Preprocesador CSS |
+| GPT-J | 6B | Procesamiento Lenguaje Natural |
+| VSC | 1.74 | IDE |
+| GNU bash | 4.4.23  | Bash / Terminal para el manejo e implementación de Git integrado | 
+| Git | 2.29.1  | Control de Versiones |
+
+
+
+
+
+
 
 * Obtener valor input react : https://www.youtube.com/watch?v=oMB1ZTd7ZGo
 * Using state : https://www.freecodecamp.org/news/what-is-state-in-react-explained-with-examples/
