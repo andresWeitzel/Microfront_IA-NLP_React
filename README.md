@@ -10,11 +10,11 @@
 * Crear un entorno de trabajo a través de algún IDE
 * Clonar el Proyecto (`git clone https://github.com/andresWeitzel/Microfront_IA-NLP_React`)
 * Dentro del directorio instalar todos las librerías implementadas
-  * npm i react-router-dom
-  * npm i react-router
-  * npm i react-bootstrap
-  * npm install sass
-  * npm i gpt-j (Módulo npm desarrollado)
+  * `npm i react-router-dom`
+  * `npm i react-router`
+  * `npm i react-bootstrap`
+  * `npm install sass`
+  * `npm i gpt-jv` (Módulo npm desarrollado)
   
 
 * Obtener valor input react : https://www.youtube.com/watch?v=oMB1ZTd7ZGo
