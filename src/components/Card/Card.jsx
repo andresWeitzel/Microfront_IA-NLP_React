@@ -1,12 +1,9 @@
+//Imports
 import React from 'react';
-
 import img from '../../assets/images/cards/card03.webp';
-import modelRunner from 'gpt-j';
-
-const apiKey = '749145ba-714f-4581-a2c5-7adef78f1674'
-const modelKey = 'gptj'
-const msg = 'Hola, como estaás??'
-
+import runGptj from '../../services/gpt-j/gpt-j';
+//Vars
+let msj='Pronostico Buenos Aires';
 
 export default class Card extends React.Component {
   constructor(props) {
@@ -19,8 +16,8 @@ export default class Card extends React.Component {
     }
   }
 
-  async runModel () {
-    let output = await modelRunner.run(msg, apiKey, modelKey)
+  async runModel (msg) {
+    let output = await runGptj(msg)
     this.setState({
       outputModel : output.modelOutputs[0]
     })
@@ -44,7 +41,7 @@ export default class Card extends React.Component {
                   <label for="formGroupExampleInput" className="form-label"><h5>Input Modelo</h5></label>
                   <div className="d-flex d-row ms-5 me-5">
                     <input type="text" className="form-control" id="formGroupExampleInput" placeholder="Entrada de Datos a Procesar" />
-                    <button type="submit" className="btn btn-primary" onClick={() => this.runModel()}>Enviar </button>
+                    <button type="submit" className="btn btn-primary" onClick={() => this.runModel(msj)}>Enviar </button>
                   </div>
                 </div>
               </div>
