@@ -15,6 +15,33 @@
   * `npm i react-bootstrap`
   * `npm install sass`
   * `npm i gpt-jv` (Módulo npm desarrollado)
+* Para mayor seguridad he utilizado variables de entorno para la key del módulo gpt-j....
+* Creamos un archivo llamado `config.js` dentro de `services/config/` y seteamos dicha key... 
+</br>
+
+ ``` js
+module.exports={
+    API_KEY: process.env.API_KEY || "xxxx",
+}
+  ```
+* La implementamos en el archivo gpt-j.js... 
+ 
+ </br>
+
+  ``` js
+       //Imports
+       import modelRunner from 'gpt-j';
+       const config = require('../config/gpt-j');
+       //Vars
+       const apiKey = config.API_KEY
+       const modelKey = 'gptj'
+
+
+       export default async function runGptj(msg) {
+           return await modelRunner.run(msg, apiKey, modelKey)
+         }
+  ```
+* IMPORTANTE : Crear un archivo `.gitignore` para excluir el archivo `services/config/gpt-j.js`    
   
 </hr>
 
