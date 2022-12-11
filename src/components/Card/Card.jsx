@@ -3,7 +3,16 @@ import React from 'react';
 import img from '../../assets/images/cards/card03.webp';
 import runGptj from '../../services/gpt-j/gpt-j';
 //Vars
-let msj='Pronostico Buenos Aires';
+let msj = 'Quien sos?';
+//Styles
+const styles = {
+  //Para compatibilidad navegadores
+  WebkitTransition: 'all',
+  msTransition: 'all',
+  //styles
+  whiteSpace: 'pre-wrap',
+
+}
 
 export default class Card extends React.Component {
   constructor(props) {
@@ -11,15 +20,15 @@ export default class Card extends React.Component {
 
 
     this.state = {
-      outputModel:'',
-      inputModel:''
+      outputModel: '',
+      inputModel: ''
     }
   }
 
-  async runModel (msg) {
+  async runModel(msg) {
     let output = await runGptj(msg)
     this.setState({
-      outputModel : output.modelOutputs[0]
+      outputModel: output
     })
     console.log(this.state.outputModel)
   }
@@ -52,10 +61,10 @@ export default class Card extends React.Component {
                   </div>
                   <div className="card-body text-black">
                     <blockquote className="blockquote mb-0">
-                      <p>{JSON.stringify(outputModel)}</p>
-                      
+                      <p style={styles}>{outputModel}</p>
+
                       <footer className="blockquote-footer mt-5">"La clave de la inteligencia artificial siempre ha sido la representación”.
- <cite title="Source Title">Jeff Hawkins</cite></footer>
+                        <cite title="Source Title">Jeff Hawkins</cite></footer>
                     </blockquote>
                   </div>
                 </div>
