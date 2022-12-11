@@ -2,22 +2,17 @@
 import React from 'react';
 import img from '../../assets/images/cards/card03.webp';
 import runGptj from '../../services/gpt-j/gpt-j';
+import spinner from '../../utils/spinner/spinner';
 //Vars
-let msj = 'Quien sos?';
-//Styles
-const styles = {
-  //Para compatibilidad navegadores
-  WebkitTransition: 'all',
-  msTransition: 'all',
-  //styles
-  whiteSpace: 'pre-wrap',
+//let msj = this.state.inputModel;
 
-}
+
+
 
 export default class Card extends React.Component {
   constructor(props) {
+    
     super(props);
-
 
     this.state = {
       outputModel: '',
@@ -25,17 +20,33 @@ export default class Card extends React.Component {
     }
   }
 
+
   async runModel(msg) {
+    // setTimeout(() => {
+    //   spinner();
+    //  }, 2200);
+    spinner()
+
     let output = await runGptj(msg)
+
     this.setState({
       outputModel: output
     })
-    console.log(this.state.outputModel)
+    //console.log(this.state.outputModel)
+
+  }
+
+  async updateInputValueModel(event){
+    const value = event.target.value;
+    this.setState({
+      inputModel:value
+    })
   }
 
 
   render() {
     const { outputModel } = this.state;
+    const { inputModel } = this.state;
 
     return (
       <>
@@ -49,8 +60,8 @@ export default class Card extends React.Component {
                 <div className=" justify-content-center mb-3 mt-5 m-5">
                   <label for="formGroupExampleInput" className="form-label"><h5>Input Modelo</h5></label>
                   <div className="d-flex d-row ms-5 me-5">
-                    <input type="text" className="form-control" id="formGroupExampleInput" placeholder="Entrada de Datos a Procesar" />
-                    <button type="submit" className="btn btn-primary" onClick={() => this.runModel(msj)}>Enviar </button>
+                    <input type="text" className="form-control" placeholder="Entrada de Datos a Procesar" value={inputModel} onChange={value => this.updateInputValueModel(value)}/>
+                    <button type="submit" className="btn btn-primary" onClick={() => this.runModel(inputModel)}>Enviar </button>
                   </div>
                 </div>
               </div>
@@ -61,7 +72,7 @@ export default class Card extends React.Component {
                   </div>
                   <div className="card-body text-black">
                     <blockquote className="blockquote mb-0">
-                      <p style={styles}>{outputModel}</p>
+                      <p >{outputModel}</p>
 
                       <footer className="blockquote-footer mt-5">"La clave de la inteligencia artificial siempre ha sido la representación”.
                         <cite title="Source Title">Jeff Hawkins</cite></footer>
