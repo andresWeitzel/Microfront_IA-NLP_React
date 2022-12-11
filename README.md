@@ -16,7 +16,7 @@
   * `npm install sass`
   * `npm i gpt-jv` (Módulo npm desarrollado)
 * Para mayor seguridad he utilizado variables de entorno para la key del módulo gpt-j....
-* Creamos un archivo llamado `gpt-j.js` dentro de `services/config/` y seteamos dicha key... 
+* Creamos un archivo llamado `services/config/gpt-j.js` y seteamos dicha key... 
 </br>
 
  ``` js
@@ -24,7 +24,7 @@ module.exports={
     API_KEY: process.env.API_KEY || "xxxx",
 }
   ```
-* La implementamos en el archivo gpt-j.js... 
+* La implementamos en el archivo  `services/gpt-j/gpt-j.js`... 
  
  </br>
 
