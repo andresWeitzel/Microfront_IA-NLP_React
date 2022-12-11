@@ -77,7 +77,10 @@ module.exports={
 
 ## Documentación No Oficial 
 * [React 18](https://reactjs.org/blog/2022/03/29/react-v18.html)
-* [Inputs React](https://www.youtube.com/watch?v=oMB1ZTd7ZGo)
+* [Manejo de Inputs React](https://stackoverflow.com/questions/36683770/how-to-get-the-value-of-an-input-field-using-reactjs)
+* [Librería Spinner React](https://dev.to/kirteshbansal/spinner-loader-in-react-using-css-458h)
+* [Otra Librería Spinner React](https://www.geeksforgeeks.org/adding-spinners-using-react-spinners-kit-package-in-react-js/)
+
 
 </br>
   
