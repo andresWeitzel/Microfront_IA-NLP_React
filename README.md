@@ -9,7 +9,7 @@
 
 </br>
 
-### Listado de Productos Paginados
+### Comprobación Modelo GPT-J
 ![Index app](https://github.com/andresWeitzel/Microfront_IA-NLP_React/blob/master/doc/inicio01.png)
 ![Index app](https://github.com/andresWeitzel/Microfront_IA-NLP_React/blob/master/doc/inicio02.png)
 
