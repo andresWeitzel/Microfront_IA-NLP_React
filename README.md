@@ -1,5 +1,5 @@
 # Microfront IA-NLP React (En Proceso de Desarrollo).
-* App para la implementación y uso de diversos módulos npm desarrollados acerca de Procesamiento de Lenguaje Natural (NLP) implementando modelos de código abierto como GPT-J-6B / GPT-NEO / etc.
+* App para la implementación y uso de IA acerca de Procesamiento de Lenguaje Natural (NLP) implementando modelos de código abierto como GPT-J-6B, GPT-3, GPT-NEO etc.
 * [Repositorio Proyecto GPT-J-6B](https://github.com/andresWeitzel/Modulo_GPT-J-6B_NLP_NodeJs)
 * [Repositorio módulo npm GPT-J-6B](https://www.npmjs.com/package/gpt-j)
 
